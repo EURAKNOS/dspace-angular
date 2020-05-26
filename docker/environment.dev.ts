@@ -5,7 +5,7 @@
  *
  * http://www.dspace.org/license/
  */
-import { GlobalConfig } from '../src/config/global-config.interface.ts';
+import { GlobalConfig } from '../config/global-config.interface';
 
 export const environment: Partial<GlobalConfig> = {
   rest: {
