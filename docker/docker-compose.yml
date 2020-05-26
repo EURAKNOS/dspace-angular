@@ -16,7 +16,7 @@ services:
     networks:
       dspacenet:
     ports:
-    - published: 3000
+    - published: 4000
       target: 4000
 #      target: 80
     - published: 9876
