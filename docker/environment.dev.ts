@@ -10,8 +10,8 @@ import { GlobalConfig } from '../src/config/global-config.interface';
 export const environment: Partial<GlobalConfig> = {
   rest: {
     ssl: false,
-    host: 'localhost',
-    port: 8080,
+    host: 'api.dspace.poc.euraknos.cf',
+    port: 80,
     // NOTE: Space is capitalized because 'namespace' is a reserved string in TypeScript
     nameSpace: '/server/api'
   }
