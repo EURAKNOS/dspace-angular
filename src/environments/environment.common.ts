@@ -8,8 +8,8 @@ export const environment: GlobalConfig = {
   // Angular Universal server settings.
   ui: {
     ssl: false,
-    host: 'localhost',
-    port: 4000,
+    host: 'dspace.poc.euraknos.cf',
+    port: 80,
     // NOTE: Space is capitalized because 'namespace' is a reserved string in TypeScript
     nameSpace: '/',
   },
