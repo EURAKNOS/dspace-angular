@@ -7,7 +7,7 @@ services:
     environment:
       DSPACE_HOST: dspace.poc.euraknos.cf
       DSPACE_NAMESPACE: /
-      DSPACE_PORT: '4000'
+      DSPACE_PORT: '80'
       DSPACE_SSL: "false"
     image: dspace/dspace-angular:latest
     build:
@@ -17,7 +17,7 @@ services:
       dspacenet:
     ports:
     - published: 3000
-      target: 4000
+      target: 80
 #      target: 80
     - published: 9876
       target: 9876
