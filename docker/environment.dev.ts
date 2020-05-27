@@ -11,7 +11,7 @@ export const environment: Partial<GlobalConfig> = {
   // Angular Universal server settings.
   ui: {
     ssl: false,
-    host: 'dspace.poc.euraknos.cf',
+    host: 'dspace.137.120.31.102.nip.io',
     port: 80,
     // NOTE: Space is capitalized because 'namespace' is a reserved string in TypeScript
     nameSpace: '/',
@@ -19,7 +19,7 @@ export const environment: Partial<GlobalConfig> = {
   },
   rest: {
     ssl: false,
-    host: 'api.dspace.poc.euraknos.cf',
+    host: 'dspace-api.137.120.31.102.nip.io',
     port: 80,
     // NOTE: Space is capitalized because 'namespace' is a reserved string in TypeScript
     nameSpace: '/server/api',
